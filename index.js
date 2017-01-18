@@ -5,7 +5,7 @@ const wt = require('webtask-tools');
 
 const err = (err, statusCode = 500) => ({
   statusCode,
-  err: (err && err.message) || err || 'oups !'
+  err: (err && err.message) || err || 'oups ! try again.'
 })
 
 const ok = (item, statusCode = 200) => ({
