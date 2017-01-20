@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 })
 
 app.get('/', function (req, res) {
-  res.ok({app: 'running'});
+  res.ok({app: 'rocking'});
 });
 
 app.get('/stars', function (req, res) {
